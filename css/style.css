@@ -67,6 +67,17 @@ footer {
   padding: 0.5em;
 }
 
+.bottom {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7em;
+  color: white;
+  padding: 0.65em;
+}
+
 .wrapper {
   width: 65%;
   margin: 6em auto;
@@ -98,8 +109,19 @@ footer {
   background-color: #659db8;
   position: relative;
   padding: 2em;
+  transition: background-color 1500ms linear;
 }
 
+.section:hover {
+  /* background-color: #bc986a; */
+  background-color: #daad86;
+  transition: background-color 1500ms linear;
+}
+
+.section:blur {
+  background-color: #red;
+  transition: background-color 1500ms linear;
+}
 
 .section h3 {
   margin-bottom: 0.5em;
@@ -114,7 +136,7 @@ footer {
 }
 
 .interlude {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     position: relative;
     left: calc(-50vw + 50%);
