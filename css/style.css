@@ -110,6 +110,7 @@ footer {
   position: relative;
   padding: 2em;
   transition: background-color 1500ms linear;
+  /* something */
 }
 
 .section:hover {
