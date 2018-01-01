@@ -1,0 +1,151 @@
+* {
+  font-family: 'Dosis', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefcc4;
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.2em;
+  z-index: 1000;
+  margin: 0;
+  background-color: #bc986a;
+  font-size: 1.2em;
+}
+header ul {
+  text-align: center;
+  margin: 0;
+}
+
+header li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2em;
+}
+
+header li a {
+  color: #fefcc4;
+  text-decoration: none;
+}
+
+header li:hover {
+  background-color: #fefcc4;
+  filter: drop-shadow(2px 2px 15px #fefcc4);
+
+}
+
+header li:hover a {
+    color: #659db8;
+}
+
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  background-color: #bc986a;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em;
+}
+
+.wrapper {
+  width: 65%;
+  margin: 6em auto;
+  padding: 2em;
+  font-size: 1.2em;
+}
+
+.anchor{
+  display: block;
+  height: 5.2em; /*same height as header*/
+  margin-top: -5.2em; /*same height as header*/
+  visibility: hidden;
+}
+
+#contact1 li {
+  color: white
+}
+
+#contact1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  border: black solid 1px;
+  box-shadow: 0.2em 0.2em;
+  border-radius: 1em;
+  margin: 1em 0;
+  background-color: #659db8;
+  position: relative;
+  padding: 2em;
+}
+
+
+.section h3 {
+  margin-bottom: 0.5em;
+}
+.section h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section ul {
+  margin-top: 0.5em;
+}
+
+.interlude {
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    /* right:0; */
+    background-attachment: fixed;
+    filter: blur(1px) sepia(80%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .4;
+
+}
+
+
+
+#sydney {
+  background-image: url("../images/mapSydney.jpg");
+}
+
+#newHolland {
+  background-image: url("../images/mapNewHolland.jpg");
+}
+
+#tramways {
+  background-image: url("../images/mapTramways.jpg");
+}
+
+#oceania {
+  background-image: url("../images/mapOceania.jpg");
+}
+
+#jackson {
+  background-image: url("../images/mapJackson.jpg");
+}
