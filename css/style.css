@@ -215,4 +215,15 @@ footer {
     height: 0;
     margin-top: 0;
   }
+
+  #contact1 img {
+    display: none;
+  }
+
+  .interlude {
+      filter: blur(0px) sepia(80%);
+
+  }
+
+
 }
