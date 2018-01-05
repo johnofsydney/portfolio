@@ -222,8 +222,10 @@ footer {
 
   .interlude {
       filter: blur(0px) sepia(80%);
-
   }
 
+  footer {
+    font-size: 1em;
+  }
 
 }
