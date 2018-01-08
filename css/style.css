@@ -197,7 +197,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
   header {
     position: relative;
@@ -224,8 +224,11 @@ footer {
     display: none;
   }
 
+
   .interlude {
       filter: blur(0px) sepia(80%);
+      background-image: none;
+      opacity: 0;
   }
 
   footer {
